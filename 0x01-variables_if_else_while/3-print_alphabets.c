@@ -10,19 +10,19 @@ int main() {
     char lowercase = 'a';
     char uppercase = 'A';
 
-    // Print the lowercase alphabet
+    /*Print the lowercase alphabet*/
     while (lowercase <= 'z') {
         putchar(lowercase);
         lowercase++;
     }
 
-    // Print the uppercase alphabet
+   
     while (uppercase <= 'Z') {
         putchar(uppercase);
         uppercase++;
     }
 
-    // Print a new line
+  
     putchar('\n');
 
     return 0;
