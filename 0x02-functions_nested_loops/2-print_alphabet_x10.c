@@ -14,8 +14,8 @@ void print_alphabet(void)
 	{
 	for (j = 0; j < 26; j++) 
 	{
-	putchar (lowercase);
-	putchar ('\n');
+	_putchar (lowercase);
+	_putchar ('\n');
 	lowercase++;
 	}
 	lowercase = 'a';
