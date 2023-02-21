@@ -13,9 +13,9 @@ int _putchar(char c)
 }
 int printstring(void)
 {
-	char string = "_putchar";
-	int i=o;
-	for (i=o; string[i] != '\0'; i++)
+	char string[] = "_putchar";
+	int i=0;
+	for (i=0; string[i] != '\0'; i++)
 	{
 	_putchar (string[i]);
 	}
