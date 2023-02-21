@@ -1,8 +1,7 @@
 #include<stdio.h>
 
 /**
- * main -ENtry point
- * Descrption: 'alphabets in lower case 10 times'
+ * print_alphabet_x10 -alphabets in lower case 10 times
  * Return: void
  */
 void print_alphabet_x10(void)
