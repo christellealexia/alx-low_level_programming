@@ -7,6 +7,9 @@
  */
 int main()
 { 
-	_putchar("_putchar\n");
+	char string[]= "_putchar";
+	int i=0;
+	for(i=0; string[i]!= '\0'; i++)
+	_putchar(string[i]);
 	return(0);
 }
