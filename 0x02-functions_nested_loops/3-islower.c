@@ -1,8 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main -Entry point
- * Description: 'if alphabet is lowecase'
+ * _islower - if alphabet is lowecase
+ * @c: integer c to check
  * Return: int
  */
 int _islower(int c)
