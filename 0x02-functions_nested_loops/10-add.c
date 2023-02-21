@@ -4,7 +4,7 @@
  *@a,@b: and b are integers to add
  *Return: int
  */
-int add(inta,int b)
+int add(int a,int b)
 {
 	sum = a + b;
 	return (sum);
