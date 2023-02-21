@@ -7,15 +7,14 @@
  */
 int _islower(int c)
 {
-	if(islower(c))
+	if( c >= 97 && c <= 122)
 	{
-	putchar('1');
-	putchar('\n');
+	
 	return (1);
 	}
-	else{
-	putchar('0');
-	putchar('\n');
+	else
+	{
+	
 	return (0);
 	}
 }
