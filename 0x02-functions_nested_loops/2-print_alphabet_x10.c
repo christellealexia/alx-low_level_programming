@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
  * main -ENtry point
  * Descrption: 'alphabets in lower case 10 times'
  * Return: void
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char lowercase = 'a';
 
@@ -21,8 +22,4 @@ void print_alphabet(void)
 	lowercase = 'a';
 	}
 }
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
+
