@@ -7,17 +7,22 @@
  */
 void print_to_98(int n)
 {
-	int i;
+	int i, j;
+
 	
 	if (n > 98)
 	{
-	printf ("n should be less than or equal to 98\n");
+	for (j = n; j >= 98; j--)
+	{
+	printf("%d", j);
 	
 	}
-	
-	for ( i = n; i <= 98; i++)
+	else
+	{
+	for (i = n; i <= 98; i++)
 	{
 	printf("%d", i);
 	}
 	printf("\n");
+	}
 }
