@@ -1,9 +1,11 @@
 #include<stdio.h>
+
 /**
  * main- fizz buzz
  * @i: integer to use
  * Return: int
  */
+
 int main(void)
 {
 	int i;
@@ -27,6 +29,7 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
+	printf("\n");
 	return (0);
 }
 
