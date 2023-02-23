@@ -1,4 +1,4 @@
-#include <stdio.h>
+#inclue <stdio.h>
 #include "main.h"
 
 /**
@@ -6,18 +6,22 @@
 * Return: 0
 */
 
-int main(void)
+int largest_number(int a, int b, int c)
 {
-	int x, y, z;
-        int largest;
+    int largest;
 
-	x= 972;
-	y = -98;
-	z = 0;
+    if (a > b && b > c)
+    {
+        largest = a;
+    }
+    else if (b > a && a > c)
+    {
+        largest = b;
+    }
+    else
+    {
+        largest = c;
+    }
 
-	largest = largest_number(x, y, z);
-
-	printf("%d is the largest number\n", largest);
-
-	return (0);
+    return (largest);
 }
