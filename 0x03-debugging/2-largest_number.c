@@ -1,4 +1,3 @@
-#inclue <stdio.h>
 #include "main.h"
 
 /**
