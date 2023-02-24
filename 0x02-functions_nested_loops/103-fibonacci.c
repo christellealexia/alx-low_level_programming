@@ -19,3 +19,5 @@ int main(void)
 	a = b; /* shift the values down the sequence */
 	b = c;
 	}
+	return (0);
+}
