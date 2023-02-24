@@ -1,9 +1,9 @@
-#include<stdio.h>
+#include "main.h"
+#include <stdio.h>
 
 /**
- * main- fizz buzz
- * @i: integer to use
- * Return: int
+ * main - Entry piont
+ * Return: Always 0
  */
 
 int main(void)
