@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int a = 1, b = 2, c, sum = 2; /* start with 1 and 2 and include 2 in the sum */
+	int a = 1, b = 2, c, sum = 2; /* start with 1 and 2 */
 
 	while (b <= 4000000)
 	{
@@ -19,5 +19,6 @@ int main(void)
 	a = b; /* shift the values down the sequence */
 	b = c;
 	}
+	printf("%d\n", sum);
 	return (0);
 }
