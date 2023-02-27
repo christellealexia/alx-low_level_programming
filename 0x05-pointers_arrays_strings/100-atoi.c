@@ -4,15 +4,15 @@
  * _atoi - converts a string to an integer
  * @s: the string to convert
  *
- * Return: the integer value of the string, or 0 if there are no numbers in the string
+ * Return: int 
  */
 int _atoi(char *s)
 {
 	int sign = 1;
 	int result = 0;
-	int i = 0;
+	int i = 0L;
 
-	if (s[i] == '-')
+	for ((s[i] == '-') || (s[i] == '+'))
 	{
 	sign = -1;
 	i++;
@@ -35,7 +35,7 @@ int _atoi(char *s)
 	i++;
 	}
 
-	return sign * result;
+	return (sign * result);
 }
 
 
