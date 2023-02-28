@@ -6,13 +6,13 @@
  */
 int _strlen(char *s)
 {
-	int arr[i]; int count; int i;
+	  int i; int arr[i];
 
 
 	for (i=0; *(arr+i) != '\0'; i++)
 	{
-		count= *(arr+i);
-			putchar(count);
+		s= *(arr+i);
+			putchar(s);
 	}
 	return (0);
 }
