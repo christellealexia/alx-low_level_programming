@@ -9,7 +9,7 @@ int _strlen(char *s)
 	int arr[i], int count;
 
 
-	for (i=0; *(arr+i)='\0'; i++)
+	for (i=0; *(arr+i) != '\0'; i++)
 	{
 		count= *(arr+i)
 			_putchar(count);
