@@ -7,8 +7,6 @@
  */
 char *string_toupper(char *str)
 {
-	*ptr = str;
-
 	for (a = 0; a< str; a++)
 	{
 
