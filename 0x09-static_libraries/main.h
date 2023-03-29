@@ -1,21 +1,26 @@
+#ifndef HEADER_FILE
+#define HEADER_FILE
+/* the entire header file file */
+
+int _putchar(char c);
+int _islower(int c);
+int _isalpha(int c);
+int _abs(int n);
+int _isupper(int c);
+int _isdigit(int c);
+int _strlen(char *s);
+void _puts(char *s);
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
+char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n);
+int _strcmp(char *s1, char *s2);
 char *_memset(char *s, char b, unsigned int n);
-char *_strcat(char *s, char b, unsigned int n);
-char *_isdigit(char *s, char b, unsigned int n);
-char *_memcpy(char *s, char b, unsigned int n);
-char *_strncat(char *s, char b, unsigned int n);
-char *_strncat(char *s, char b, unsigned int n);
-char *_atoi(char *s, char b, unsigned int n);
-char *_strchr(char *s, char b, unsigned int n);
-char *_strlen(char *s, char b, unsigned int n);
-char *_strncpy(char *s, char b, unsigned int n);
-char *_islower(char *s, char b, unsigned int n);
-char *_puts(char *s, char b, unsigned int n);
-char *_strcmp(char *s, char b, unsigned int n);
-char *_strspn(char *s, char b, unsigned int n);
-char *_strpbrk(char *s, char b, unsigned int n);
-char *_isalpha(char *s, char b, unsigned int n);
-char *_strstr(char *s, char b, unsigned int n);
-char *_abs(char *s, char b, unsigned int n);
-char *_strcpy(char *s, char b, unsigned int n);
-char *_putchar(char *s, char b, unsigned int n);
-char *_isupper(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
+char *_strstr(char *haystack, char *needle);
+
+#endif
