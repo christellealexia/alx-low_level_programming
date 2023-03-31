@@ -4,15 +4,15 @@
 /**
  * create_array- function to create array of characters
  * @c: argument to be used
- * @ size: number of bytes
- * Return: always 0
+ * @size: number of bytes
+ * Return: pointer to the array or NULL if it fails
  */
 char *create_array(unsigned int size, char c)
 {
 	char *s;
 	unsigned int i = 0;
-	s = malloc(sizeof(char) * size);
 
+	s = malloc(sizeof(char) * size);
 	while (i < size)
 	{
 		s[i] = c;
@@ -22,7 +22,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	else if ( s == NULL)
+	else if (s == NULL)
 	{
 		return (NULL);
 	}
