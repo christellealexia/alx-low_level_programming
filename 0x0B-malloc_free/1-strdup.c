@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup- function 
- * @
- *
- *
+ * _strdup- function that returns a pointer to a newly allocated
+ * space in memory, which contains a copy of the string given as
+ * a parameter.
+ * @str: an input of the string to copy
+ * Return: a pointer to new string or NULL if str is NULL
  */
 char *_strdup(char *str)
 {
@@ -21,12 +22,12 @@ char *_strdup(char *str)
 		str++;
 	}
 	str = start;
-	new_str = malloc(sizeof(char)* (len+1));
+	new_str = malloc(sizeof(char) * (len + 1));
 	start = new_str;
 
 	if (new_str != NULL)
 	{
-		for (; i<len; i++)
+		for (; i < len; i++)
 		{
 			new_str[i] = *str;
 			str++;
