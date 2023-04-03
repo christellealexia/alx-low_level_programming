@@ -4,17 +4,18 @@
 #include <string.h>
 /**
  * print_listint- function that prints all elements
- * @h: pointer used 
+ * @h: pointer used
  * Return: size_t
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t count = 0;
-	
+	size_t count;
+
+	count = 0;
 	while (h != NULL)
 	{
 		count++;
-		printf ("%d", h->n);
+		printf("%d\n", h->n);
 		h = h->next;
 	}
 	return (count);
