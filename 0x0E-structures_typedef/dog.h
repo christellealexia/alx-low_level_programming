@@ -4,9 +4,7 @@
 /**
  * dog_t - typedef for struct dog
  */
-
 typedef struct dog dog_t;
-
 /**
  * struct dog - define a new type struct dog
  * @name: dog name
