@@ -21,7 +21,7 @@ unsigned int binary_to_uint(const char *b)
 		{
 			number += mult;
 		}
-		else if (b[len - i - 1] != '1' && b[len - i - 1] != '0')
+		else if (b[len - i - 1] != '1' && b[len - i - 1] != '0' && !b)
 		{
 			return (0);
 		}
